@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profilepic.jpg',
   paragraphOne:
-    'Designer with a recently aquired web development certification seeking a career that will allow my professional skills, experience, and education to benefit an organization.',
+    'Designer with full-stack web development certification seeking a career that will allow my professional skills, experience, and education to benefit an organization.',
   paragraphTwo:
     'Ready to create high engaging content and features that users find interesting and interactive by bringing good mastery of Adobe Creative Suite, modern HTML, CSS, and JavaScript, as well as a robust ability to execute and complete print and web-based projects.',
   paragraphThree: '',
@@ -32,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.jpg',
     title: 'Netflix Clone App',
-    info: 'Clone of Netflix app. Built using React Functional Components and TMDB API.',
+    info: 'Clone of Netflix app. Built using React Hooks and TMDB API.',
     info2: '',
     url: 'https://netflixclonebysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/netflix-clone', // if no repo, the button will not show up
@@ -40,11 +40,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project2.jpg',
-    title: 'Responsive Website',
-    info: 'Responsive website built using Vanilla Javascript and CSS.',
+    title: 'Task Manager App',
+    info: 'Task Manager App built with React Hooks and Context API.',
     info2: '',
-    url: 'https://responsivewebsitebysparrow.netlify.app',
-    repo: 'https://github.com/sparrowestes/responsive-website', // if no repo, the button will not show up
+    url: 'https://taskmanagerappbysparrow.netlify.app',
+    repo: 'https://github.com/sparrowestes/task-manager', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
