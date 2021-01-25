@@ -34,7 +34,7 @@ export const projectsData = [
     title: 'Netflix Clone App',
     info: 'Clone of Netflix app. Built using React Functional Components and TMDB API.',
     info2: '',
-    url: 'https://ecstatic-jepsen-740d9f.netlify.app',
+    url: 'https://netflixclonebysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/netflix-clone', // if no repo, the button will not show up
   },
   {
@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'Responsive Website',
     info: 'Responsive website built using Vanilla Javascript and CSS.',
     info2: '',
-    url: 'https://xenodochial-blackwell-b00103.netlify.app',
+    url: 'https://responsivewebsitebysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/responsive-website', // if no repo, the button will not show up
   },
   {
@@ -53,7 +53,7 @@ export const projectsData = [
     info:
       'App that finds song lyrics using React and the Musixmatch API. Built using Class Based Components and styled with Bootstrap.',
     info2: '',
-    url: 'https://flamboyant-meninsky-b7b8f4.netlify.app',
+    url: 'https://lyricfinderbysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/lyric-finder-class', // if no repo, the button will not show up
   },
 ];
