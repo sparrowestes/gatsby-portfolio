@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'Ready to create high engaging content and features that users find interesting and interactive by bringing good mastery of Adobe Creative Suite, modern HTML, CSS, and JavaScript, as well as a robust ability to execute and complete print and web-based projects.',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1mmHrcCmzI2RoRfOe-1QG4n4ihwsG9QRF/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1V4bZjdOpmPBSmqH3_e7QWR7pPFyBFlFw/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
