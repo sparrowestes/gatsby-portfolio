@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.jpg',
     title: 'Task Manager App',
-    info: 'Task Manager App built with React Hooks and Context API.',
+    info: 'Task manager app built with React Hooks and Context API.',
     info2: '',
     url: 'https://taskmanagerappbysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/task-manager', // if no repo, the button will not show up
@@ -55,6 +55,15 @@ export const projectsData = [
     info2: '',
     url: 'https://lyricfinderbysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/lyric-finder-class', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Responsive Website',
+    info: 'Responsive website built using HTML and CSS.',
+    info2: '',
+    url: 'https://responsivewebsitebysparrow.netlify.app',
+    repo: 'https://github.com/sparrowestes/responsive-website', // if no repo, the button will not show up
   },
 ];
 
