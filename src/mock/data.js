@@ -10,18 +10,16 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Sparrow Estes',
-  subtitle: 'designer = ( ) => { developer }',
+  name: '',
+  subtitle: '',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profilepic.jpg',
-  paragraphOne:
-    'Designer with full-stack web development certification seeking a career that will allow my professional skills, experience, and education to benefit an organization.',
-  paragraphTwo:
-    'Ready to create high engaging content and features that users find interesting and interactive by bringing good mastery of Adobe Creative Suite, modern HTML, CSS, and JavaScript, as well as a robust ability to execute and complete print and web-based projects.',
+  paragraphOne: '',
+  paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://drive.google.com/file/d/1V4bZjdOpmPBSmqH3_e7QWR7pPFyBFlFw/view?usp=sharing', // if no resume, the button will not show up
 };
