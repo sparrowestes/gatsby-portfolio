@@ -1,9 +1,10 @@
-import React, { useContext, useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
-import { Container, Row, Col } from 'react-bootstrap';
-import Title from '../Title/Title';
+import { Col, Container, Row } from 'react-bootstrap';
+import React, { useContext, useEffect, useState } from 'react';
+
 import AboutImg from '../Image/AboutImg';
+import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
+import Title from '../Title/Title';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -39,15 +40,12 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Designer with full-stack web development certification seeking a career that will allow my professional skills, experience, and education to benefit an organization.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Ready to create high engaging content and features that users find interesting and interactive by bringing good mastery of Adobe Creative Suite, modern HTML, CSS, and JavaScript, as well as a robust ability to execute and complete print and web-based projects.'}
                 </p>
-                {/* <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p> */}
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
