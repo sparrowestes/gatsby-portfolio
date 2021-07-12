@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1V4bZjdOpmPBSmqH3_e7QWR7pPFyBFlFw/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1cT9640qzXq1VJJVS41k8dVpGBxIn6U-t/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -43,16 +43,6 @@ export const projectsData = [
     info2: '',
     url: 'https://taskmanagerappbysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/task-manager', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project3.jpg',
-    title: 'Lyric Finder App',
-    info:
-      'App that finds song lyrics using React and the Musixmatch API. Built using Class Based Components and styled with Bootstrap.',
-    info2: '',
-    url: 'https://lyricfinderbysparrow.netlify.app',
-    repo: 'https://github.com/sparrowestes/lyric-finder-class', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
