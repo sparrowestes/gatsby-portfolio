@@ -38,7 +38,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project5.jpg',
-    title: 'Task Manager App',
+    title: 'Frontend Bootcamp Website',
     info: 'Frontend bootcamp website designed with Bootstrap 5.',
     info2: '',
     url: 'https://frontendbootcampbootstrap.netlify.app',
