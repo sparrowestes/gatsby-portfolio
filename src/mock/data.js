@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1v4XoxNDnxDgNmH8AJf70NLpyZMtqwcu7/view?usp=sharing`', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1y_3Hz7X8X99Nq3vWPE-dSp6OaLwOVqhD/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -65,16 +65,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    // {
-    //   id: nanoid(),
-    //   name: 'twitter',
-    //   url: '',
-    // },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',
