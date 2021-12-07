@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1y_3Hz7X8X99Nq3vWPE-dSp6OaLwOVqhD/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1d-9yp7W1sgq86KvkAYoeu8G2CF8tAiBO/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,19 +30,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.jpg',
     title: 'Netflix Clone App',
-    info: 'Clone of Netflix app. Built using React hooks and TMDB api.',
+    info: 'Clone of Netflix app. Built using React Hooks and TMDB API.',
     info2: '',
     url: 'https://netflixclonebysparrow.netlify.app',
     repo: 'https://github.com/sparrowestes/netflix-clone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project5.jpg',
-    title: 'Frontend Bootcamp Website',
-    info: 'Frontend bootcamp website designed with Bootstrap 5.',
+    img: 'project2.jpg',
+    title: 'Task Manager App',
+    info: 'Task Manager App built with React Hooks and Context API.',
     info2: '',
-    url: 'https://frontendbootcampbootstrap.netlify.app',
-    repo: 'https://github.com/sparrowestes/bootcampbootstrap', // if no repo, the button will not show up
+    url: 'https://taskmanagerappbysparrow.netlify.app',
+    repo: 'https://github.com/sparrowestes/task-manager', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
